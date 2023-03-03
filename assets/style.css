@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    scroll-behavior: smooth;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h2{
+   color: white;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   text-shadow: 0px 0px 10px #3498db;
+}
+
+.follow{
+  text-transform: uppercase;
+  padding: 10px 10px;
+  border-radius: 10px;
+  color: white;
+  background-image: url('/images/logo.webp');
+  opacity: 0.90;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 10px;
+  font-weight: bold;
+}
+
+#bird{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+}
+
+.social{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.socialmedia:nth-child(1){
+    padding: 20px 20px;
+    font-size: 30px;
+    opacity: 0.90;
+    border-radius: 20px;
+    background: black;
+    color: #00acee;
+    margin: 10px;
+    transition: 0.15s linear all;
+    box-shadow: 10px 10px 20px #3498db;
+}
+.socialmedia:nth-child(2){
+    padding: 20px 20px;
+    font-size: 30px;
+    opacity: 0.90;
+    border-radius: 20px;
+    background: black;
+    color: #3c5898;
+    margin: 10px;
+    transition: 0.15s linear all;
+    box-shadow: 10px 10px 20px #3498db;
+}
+.socialmedia:nth-child(3){
+    padding: 20px 20px;
+    font-size: 30px;
+    opacity: 0.90;
+    border-radius: 20px;
+    background: black;
+    color: white;
+    margin: 10px;
+    transition: 0.15s linear all;
+    box-shadow: 10px 10px 20px #3498db;
+}
+.socialmedia:nth-child(4){
+    padding: 20px 20px;
+    font-size: 30px;
+    opacity: 0.90;
+    border-radius: 20px;
+    background: black;
+    color: #e1306c;
+    margin: 10px;
+    transition: 0.15s linear all;
+    box-shadow: 10px 10px 20px #3498db;
+}
+
+.socialmedia:nth-child(1):hover{
+    background: #3498db;
+    transform: rotate(10deg);
+    color: white;
+    box-shadow: 10px 10px 0px #3478a5;
+}
+.socialmedia:nth-child(2):hover{
+    background: #3c5898;
+    transform: rotate(10deg);
+    color: white;
+    box-shadow: 10px 10px 0px #29487d;
+}
+.socialmedia:nth-child(3):hover{
+    background: black;
+    transform: rotate(10deg);
+    color: white;
+    box-shadow: 10px 10px 0px #212121;
+}
+.socialmedia:nth-child(4):hover{
+    background-image: url('/images/bg-instagram.jpg');
+    background-size: cover;
+    background-position: center;
+    transform: rotate(10deg);
+    color: white;
+    box-shadow: 10px 10px 0px #e1306c;
+}
